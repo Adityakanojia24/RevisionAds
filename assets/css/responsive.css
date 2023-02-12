@@ -41,6 +41,9 @@
     .ptb_100 {
         padding: 70px 0;
     }
+    .navbar-brand-regular{
+        margin-top : -40px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -53,7 +56,9 @@
     .ptb_180 {
         padding: 130px 0;
     }
-
+    .navbar-brand-regular{
+        margin-top : -40px;
+    }
     .ptb_150,
     .ptb_100 {
         padding: 50px 0;
@@ -69,7 +74,9 @@
         height: 4rem;
         width: 4rem;
     }
-
+.text-white {
+    margin-top : 35px;
+}
     .ptb_180 {
         padding: 80px 0;
     }

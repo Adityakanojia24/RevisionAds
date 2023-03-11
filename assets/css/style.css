@@ -55,8 +55,11 @@
 :: 3.0 GLOBAL CSS
 ****************************** */
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 100;
+    padding: 100; */
+    align-items: center;
+    position: relative;
+     top: auto;
 }
 
 body {
@@ -280,10 +283,10 @@ img {
 }
 
 .section-heading > h2 {
-    display: inline-block;
-    font-size: 56px;
+    display: inline grid;
+    font-size: 40px;
     font-weight: 700;
-    text-transform: lowercase;
+    text-transform: none;
     line-height: 1em;
     letter-spacing: -1.6px;
 }
@@ -1590,7 +1593,7 @@ body.dark,
 }
 
 .single-content-list span {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /*Profile Circle Wrapper*/
@@ -2380,7 +2383,7 @@ body.dark,
     font-weight: 900;
     line-height: 1em;
     letter-spacing: -1.6px;
-    background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
+    background-image: linear-gradient(45deg, #b246fa 15%, #8830df 65%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }

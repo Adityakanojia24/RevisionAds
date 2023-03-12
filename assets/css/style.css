@@ -39,6 +39,7 @@
 :: 1.0 WEB FONTS
 ****************************** */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); */
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
@@ -54,16 +55,19 @@
 /* ******************************
 :: 3.0 GLOBAL CSS
 ****************************** */
-* {
+* { margin: 0;
+    padding:0;
+    box-sizing: border-box ;
     /* margin: 100;
     padding: 100; */
-    align-items: center;
-    position: relative;
-     top: auto;
+    /* align-items: center; */
+    /* position: relative; */
+     /* top: auto; */
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -77,6 +81,13 @@ body {
 section,
 .section {
     position: relative;
+}
+
+.service-thumb{
+margin-top: 100px;
+}
+.breadcrumb-content .headingthird{
+    padding-top: 70px;
 }
 
 .container {
@@ -2258,7 +2269,9 @@ body.dark,
     transition: background-color, transform 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s;
     z-index: 1;
 }
-
+#review{
+    width: 100%;
+}
 .owl-item.active.center .single-review {
     background-color: #fff;
     -webkit-transform: scale(1.1);

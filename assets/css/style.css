@@ -18,7 +18,7 @@
     :: 8.4 WELCOME AREA HOMEPAGE-5 CSS
 :: 9.0 PROMO AREA CSS
 :: 10.0 CONTENT AREA CSS
-:: 11.0 SERVICE AREA CSS
+:: 11.0 AREA CSS
 :: 12.0 PORTFOLIO AREA CSS
 :: 13.0 VIDEO AREA CSS
 :: 14.0 PRICE PLAN AREA CSS
@@ -82,7 +82,15 @@ section,
 .section {
     position: relative;
 }
-
+.service-thumb1{
+    padding-top: 150px;
+}
+.service-thumb1wd{
+    padding-top: 40px;
+}
+.service-thumb2{
+    padding-top: 100px;
+}
 .service-thumb{
 margin-top: 100px;
 }
@@ -1529,7 +1537,7 @@ body.dark,
 .single-promo h3 {
     font-size: 55px;
     font-weight: 700;
-    text-transform: lowercase;
+    text-transform: none;
     line-height: 0.9em;
     letter-spacing: -1.6px;
 }
@@ -2318,7 +2326,7 @@ body.dark,
 .single-blog {
     background-color: #fff;
     -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
-    box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
+    box-shadow: 0 0.313rem 0.875rem rgba(13, 14, 15, 0.09);
     border-radius: 4px;
     -webkit-transition: -webkit-box-shadow, -webkit-transform .4s cubic-bezier(.4, 0, .2, 1);
     transition: -webkit-box-shadow, -webkit-transform .4s cubic-bezier(.4, 0, .2, 1);
@@ -2334,10 +2342,17 @@ body.dark,
 }
 
 .blog-title {
-    font-size: 22px;
+    font-size: 29px;
     font-weight: 700;
 }
-
+.blog-title-head{
+    font-size: 19px;
+    font-weight: 700;
+}
+blog-title-head.hover,
+blog-title-head:focus {
+    color: #0449c4;
+}
 .blog-content {
     padding: 2rem;
 }

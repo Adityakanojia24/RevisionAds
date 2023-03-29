@@ -1485,7 +1485,7 @@ body.dark,
 .dark .bg-overlay::after,
 .dark .dark-bg,
 .dark .navbar-sticky-moved-up {
-    background: #06052F !important;
+    background: #5900ff 65% !important;
 }
 
 .homepage-5 .btn:active,

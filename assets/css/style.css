@@ -733,27 +733,27 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("") no-repeat fixed center center / cover;
 }
 
 .homepage-2 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg_2.png") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("") no-repeat scroll center center / cover;
 }
 
 .homepage-3 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg_3.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("") no-repeat scroll center center / cover;
 }
 
 .homepage-4 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg_4.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("") no-repeat fixed center center / cover;
 }
 
 .cta-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/cta_bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("") no-repeat fixed center center / cover;
 }
 
 .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("") no-repeat fixed center center / cover;
 }
 
 .blog .breadcrumb-area {
@@ -1485,7 +1485,7 @@ body.dark,
 .dark .bg-overlay::after,
 .dark .dark-bg,
 .dark .navbar-sticky-moved-up {
-    background: #5900ff 65% !important;
+    background: #06052F 50% !important;
 }
 
 .homepage-5 .btn:active,
@@ -2404,16 +2404,21 @@ blog-title-head:focus {
     height: 550px;
     z-index: 1;
 }
-
+.breadcrumb-change {
+    font-size: 19px;
+}
 .breadcrumb-content > h2 {
     display: inline-block;
     font-size: 60px;
     font-weight: 900;
     line-height: 1em;
     letter-spacing: -1.6px;
-    background-image: linear-gradient(45deg, #b246fa 15%, #8830df 65%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%); */
+    /* background-clip: text; */
+    background: -webkit-linear-gradient(#af52ed, #8830df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .breadcrumb {
